@@ -27,7 +27,6 @@ class TuringMachine:
         else:
             current_char = '_'
 
-        # 2. Karakterin tipini belirle
         if current_char in DIGITS:
             char_type = 'DIGIT'
         elif current_char in LETTERS:
